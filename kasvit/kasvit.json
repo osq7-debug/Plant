@@ -12,7 +12,7 @@
     "name": "Onion Skin",
     "color": "orange/brown",
     "material": "wool, cotton",
-    "image": "kuvat/sipulit.jpg",
+    "image": "kuvat/Sipulit.jpg",
     "description": "Outer skins yield rich orange and brown shades."
   },
   {
@@ -28,7 +28,7 @@
     "name": "Beetroot",
     "color": "pink/red",
     "material": "wool",
-    "image": "kuvat/punajuuri.jpg",
+    "image": "kuvat/Punajuuri.jpg",
     "description": "Root produces vibrant pink and red tones."
   }
 ]
