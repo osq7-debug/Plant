@@ -38,7 +38,7 @@ body {
     color: #111;
 }
 
-/* LISÄÄ KASVI */
+
 .add-section {
     background: rgb(255, 255, 255);
     border: 1px solid #ddd;
@@ -85,7 +85,7 @@ body {
     font-size: 14px;
 }
 
-/* KASVILISTA */
+
 .list-section {
     background: white;
     border: 1px solid #ddd;
@@ -145,4 +145,8 @@ body {
     font-size: 15px;
     font-weight: 700;
     cursor: pointer;
+}
+
+#extra{
+    resize: none;
 }

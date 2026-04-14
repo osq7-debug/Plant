@@ -1,11 +1,10 @@
-/* RESET */
+/* Reset & Global Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* BODY */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fafafa;
@@ -13,6 +12,7 @@ body {
     line-height: 1.5;
 }
 
+/* Logo */
 .logo-text {
     font-size: 22px;
     font-weight: 700;
@@ -21,7 +21,7 @@ body {
     color: #111;
 }
 
-/* HEADER */
+/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,6 @@ header {
     border-bottom: 1px solid #ddd;
 }
 
-/* NAV */
 nav a {
     text-decoration: none;
     margin-left: 35px;
@@ -44,7 +43,7 @@ nav a:hover {
     color: #000;
 }
 
-/* HERO */
+/* Gallery Hero */
 .gallery-hero {
     padding: 60px 70px 30px 70px;
     max-width: 600px;
@@ -63,28 +62,27 @@ nav a:hover {
     max-width: 480px;
 }
 
-/* GALLERY GRID */
+/* Gallery Section */
 .gallery-section {
     padding: 30px 70px 70px 70px;
 }
 
 .gallery-grid {
-    columns: 2;
-    column-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
-/* KORTTI */
 .plant-card {
-    break-inside: avoid;
-    margin-bottom: 20px;
     border-radius: 16px;
     overflow: hidden;
-    position: relative;
     cursor: pointer;
 }
 
 .plant-card img {
     width: 100%;
+    height: 300px;
+    object-fit: cover;
     display: block;
     border-radius: 16px;
     transition: transform 0.3s ease;
@@ -94,7 +92,6 @@ nav a:hover {
     transform: scale(1.03);
 }
 
-/* KORTIN TIEDOT */
 .plant-info {
     padding: 12px 4px 4px 4px;
 }
@@ -109,6 +106,8 @@ nav a:hover {
     font-size: 13px;
     color: #666;
 }
+
+/* Buttons */
 .admin-btn {
     display: inline-block;
     padding: 8px 16px;
@@ -119,7 +118,158 @@ nav a:hover {
     font-size: 13px;
 }
 
-/* RESPONSIIVISUUS */
+#color-filter,
+#material-filter,
+#resetFilterBtn {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+}
+
+#resetFilterBtn:hover {
+    background-color: #4CAF50;
+}
+
+/* ===================== */
+/* MODAL                 */
+/* ===================== */
+
+#plant-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+}
+
+.modal-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(4px);
+}
+
+.modal-content {
+    position: relative;
+    background: #fafafa;
+    width: 90%;
+    max-width: 1000px;
+    max-height: 90vh;
+    overflow-y: auto;
+    border-radius: 20px;
+    margin: 5vh auto;
+}
+
+/* Header */
+.modal-header {
+    position: relative;
+    text-align: center;
+    padding: 50px 40px 40px 40px;
+    border-radius: 20px 20px 0 0;
+}
+
+.modal-header h1 {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: Georgia, serif;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.modal-latin {
+    font-size: 15px;
+    color: rgba(0,0,0,0.5);
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+/* Close button */
+.modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: rgba(255,255,255,0.8);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    line-height: 30px;
+    text-align: center;
+    transition: background 0.2s;
+}
+
+.modal-close:hover {
+    background: white;
+}
+
+/* Top section - 3 columns */
+.modal-top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 30px 40px;
+    background: white;
+}
+
+.modal-top > div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.modal-top img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.modal-top h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #111;
+}
+
+.modal-top p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Bottom section - 4 images */
+.modal-bottom {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding: 30px 40px;
+    background: #fafafa;
+    border-radius: 0 0 20px 20px;
+}
+
+.modal-bottom > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.modal-bottom img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.modal-bottom p {
+    font-size: 12px;
+    color: #777;
+    text-align: center;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -147,6 +297,41 @@ nav a:hover {
     }
 
     .gallery-grid {
-        columns: 1;
+        grid-template-columns: 1fr;
+    }
+
+    .modal-content {
+        width: 100%;
+        max-height: 100vh;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .modal-header h1 {
+        font-size: 32px;
+    }
+
+    .modal-top {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .modal-bottom {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-hero h1 {
+        font-size: 24px;
+    }
+
+    .modal-header h1 {
+        font-size: 26px;
+    }
+
+    .modal-bottom {
+        grid-template-columns: 1fr;
     }
 }

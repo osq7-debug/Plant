@@ -1,11 +1,11 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* BODY */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f5f7fa;
@@ -31,7 +31,7 @@ header {
     border-bottom: 1px solid #ddd;
 }
 
-/* NAV */
+
 nav a {
     text-decoration: none;
     margin-left: 35px;
@@ -44,7 +44,7 @@ nav a:hover {
     color: #000;
 }
 
-/* HERO */
+
 .hero {
     padding: 70px 70px 20px 70px;
 }
@@ -55,7 +55,7 @@ nav a:hover {
     color: #555;
 }
 
-/* OTSIKKO */
+
 .title {
     display: flex;
     flex-direction: column;
@@ -64,7 +64,7 @@ nav a:hover {
     font-weight: 800;
 }
 
-/* CONTENT: kuva + kortit rinnakkain */
+
 .content {
     display: flex;
     gap: 50px;
@@ -72,7 +72,7 @@ nav a:hover {
     padding: 50px 70px 80px 70px;
 }
 
-/* KUVA */
+
 .content-image img {
     width: 450px;
     height: 450px;
@@ -83,7 +83,7 @@ nav a:hover {
     flex-shrink: 0;
 }
 
-/* KORTIT */
+
 .cards {
     display: flex;
     flex-direction: column;
@@ -91,7 +91,7 @@ nav a:hover {
     flex: 1;
 }
 
-/* YKSITTÄINEN KORTTI */
+
 .card {
     background: white;
     border: 1px solid #ddd;
@@ -110,7 +110,7 @@ nav a:hover {
     color: #666;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 900px) {
     .content {
         flex-direction: column;
@@ -123,7 +123,7 @@ nav a:hover {
 }
 
 @media (max-width: 768px) {
-   /* Header better stacking */
+   
     header {
         flex-direction: column;
         gap: 15px;
@@ -131,7 +131,7 @@ nav a:hover {
         text-align: center;
     }
 
-    /* Navigation spacing */
+    
     nav a {
         margin-left: 0;
         margin-right: 15px;

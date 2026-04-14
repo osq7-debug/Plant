@@ -80,14 +80,14 @@ h1 {
     line-height: 1.1;
 }
 
-/* PARAGRAPH */
+
 p {
     font-size: 18px;
     color: #555;
     margin-bottom: 35px;
 }
 
-/* BUTTON */
+
 #Lisaa {
     padding: 14px 32px;
     border: none;
@@ -110,15 +110,14 @@ p {
 }
 
 #extra-text.show {
-    max-height: 500px; /* tarpeeksi iso mobiilillekin */
+    max-height: 500px; 
 }                               
-/* RESPONSIVE */
-/* ===== MOBILE OPTIMIZATION (ADD TO END ONLY) ===== */
 
-/* Tablet + small screens */
+
+
 @media (max-width: 768px) {
 
-    /* Header better stacking */
+    
     header {
         flex-direction: column;
         gap: 15px;
@@ -126,14 +125,14 @@ p {
         text-align: center;
     }
 
-    /* Navigation spacing */
+    
     nav a {
         margin-left: 0;
         margin-right: 15px;
         font-size: 16px;
     }
 
-    /* Hero section */
+    
     section {
         grid-template-columns: 1fr;
         padding: 40px 20px;
@@ -141,7 +140,7 @@ p {
         text-align: center;
     }
 
-    /* Text scaling */
+   
     h1 {
         font-size: 36px;
     }
@@ -151,13 +150,13 @@ p {
         margin-bottom: 25px;
     }
 
-    /* Image scaling */
+   
     section img {
         max-width: 100%;
         border-radius: 15px;
     }
 
-    /* Button full width touch friendly */
+    
     button {
         width: 100%;
         max-width: 300px;
@@ -166,7 +165,7 @@ p {
     }
 }
 
-/* Small phones */
+
 @media (max-width: 480px) {
 
     h1 {

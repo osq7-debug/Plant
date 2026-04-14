@@ -57,7 +57,6 @@ app.get('/', (req, res) => {
 app.get('/admin', suojattu, (req, res) => {
     res.sendFile(path.join(__dirname, 'Admin.html'));
 });
-
 // Login
 app.post('/login', async (req, res) => {
     const syote = req.body.salasana;
@@ -69,6 +68,8 @@ app.post('/login', async (req, res) => {
         res.redirect('/login.html?error=1');
     }
 });
+
+
 
 // Logout
 app.get('/logout', (req, res) => {
@@ -83,18 +84,50 @@ app.get('/plants', (req, res) => {
 });
 
 // Lisää kasvi + kuva (suojattu)
-app.post('/plants', suojattu, upload.single('image'), (req, res) => {
+app.post('/plants', suojattu, upload.any(), (req, res) => {
     const plants = JSON.parse(fs.readFileSync('kasvit/kasvit.json', 'utf-8'));
+
+    function getFile(name) {
+        const f = req.files.find(f => f.fieldname === name);
+        return f ? 'kuvat/' + f.filename : '';
+    }
+
     const newPlant = {
         id: plants.length + 1,
         name: req.body.name,
+        latin: req.body.latin,
         color: req.body.color,
         material: req.body.material,
         description: req.body.description,
-        image: req.file ? 'kuvat/' + req.file.filename : ''
+        extra: req.body.extra || '',
+
+        image: getFile('image'),
+
+        heroColor: req.body.heroColor,
+
+        sections: [
+            { title: req.body.s1title, text: req.body.s1text },
+            { title: req.body.s2title, text: req.body.s2text },
+            { title: req.body.s3title, text: req.body.s3text }
+        ],
+
+        topImages: {
+            plant: getFile('plantImage'),
+            use: getFile('useImage'),
+            material: getFile('materialImage')
+        },
+
+        bottomImages: [
+            { src: getFile('img1'), title: req.body.img1title },
+            { src: getFile('img2'), title: req.body.img2title },
+            { src: getFile('img3'), title: req.body.img3title },
+            { src: getFile('img4'), title: req.body.img4title }
+        ]
     };
+
     plants.push(newPlant);
     fs.writeFileSync('kasvit/kasvit.json', JSON.stringify(plants, null, 2));
+
     res.json(newPlant);
 });
 

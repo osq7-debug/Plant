@@ -106,7 +106,7 @@ body {
 
 /* RESPONSIIVISUUS */
 @media (max-width: 768px) {
-    .banner {
+    .banneri {
         padding: 20px;
     }
 

@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin – Plant Catalogue</title>
-    <link rel="stylesheet" href="css/admin.css">
 </head>
 <body>
 
@@ -18,14 +17,69 @@
         <!-- LISÄÄ KASVI -->
         <section class="add-section">
             <h2>Add New Plant</h2>
+
             <div class="form">
-                <input type="text" id="name" placeholder="Name">
-                <input type="text" id="color" placeholder="Color">
-                <input type="text" id="material" placeholder="Material">
-                <input type="text" id="description" placeholder="Description">
+                <!-- VANHAT (ei muutettu) -->
+                <input type="text" id="name" placeholder="Plant Name">
+                <input type="text" id="latin" placeholder="Latin name (e.g. Betula pendula)">
+                <input type="text" id="color" placeholder="Plant Color">
+                <input type="text" id="material" placeholder="What Material Used For?">
+                <input type="text" id="description" placeholder="Short Plants Description">
+                <textarea id="extra" placeholder="Extra details (optional)" rows="4"></textarea>
+
+                <p>Main Image (gallery):</p>
                 <input type="file" id="image" accept="image/*">
+
+                <!--  UUSI OSIO -->
+                <hr>
+
+                <h3>Modal Content</h3>
+
+                <!--<input type="text" id="heroColor" placeholder="Header color (e.g. #d8d27a)"-->
+
+                <!-- SECTIONS -->
+                <h4>Sections (3 columns)</h4>
+
+                <input type="text" id="s1title" placeholder="Section 1 title">
+                <textarea id="s1text" placeholder="Section 1 text"></textarea>
+
+                <input type="text" id="s2title" placeholder="Section 2 title">
+                <textarea id="s2text" placeholder="Section 2 text"></textarea>
+
+                <input type="text" id="s3title" placeholder="Section 3 title">
+                <textarea id="s3text" placeholder="Section 3 text"></textarea>
+
+                <!-- TOP IMAGES -->
+                <h4>Top Images (3 images)</h4>
+
+                <p>Plant image:</p>
+                <input type="file" id="plantImage" accept="image/*">
+
+                <p>Use image:</p>
+                <input type="file" id="useImage" accept="image/*">
+
+                <p>Material image:</p>
+                <input type="file" id="materialImage" accept="image/*">
+
+                <!-- BOTTOM IMAGES -->
+                <h4>Bottom Images (4 images + titles)</h4>
+
+                <input type="file" id="img1" accept="image/*">
+                <input type="text" id="img1title" placeholder="Image 1 title">
+
+                <input type="file" id="img2" accept="image/*">
+                <input type="text" id="img2title" placeholder="Image 2 title">
+
+                <input type="file" id="img3" accept="image/*">
+                <input type="text" id="img3title" placeholder="Image 3 title">
+
+                <input type="file" id="img4" accept="image/*">
+                <input type="text" id="img4title" placeholder="Image 4 title">
+
+                <!-- SUBMIT -->
                 <button onclick="addPlant()">Add Plant</button>
             </div>
+
             <p id="add-message"></p>
         </section>
 

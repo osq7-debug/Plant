@@ -8,17 +8,40 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- HEADERR-->
+    
     <header id="header-placeholder"></header>       
     <script src="/js/header.js"></script>
- <!-- HERO TEXT -->
+ 
     <section class="gallery-hero">
         <h1>Natural Alternatives<br>from Dye Plants</h1>
         <p>This section presents carefully selected images that highlight the versatility and practicality of the dye plants in the catalogue.</p>
-        <a href="/login.html" class="admin-btn">Are you Admin? Login here</a>
+        <a href="/login.html" class="admin-btn">Are You Admin? Login Here</a>
+
+    <select id="color-filter" onchange="filterByColor()">
+        <option value="all">All colors</option>
+        <option value="yellow">Yellow</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="purple">Purple</option>
+        <option value="brown">Brown</option>
+        <option value="orange">Orange</option>
+        <option value="pink">Pink</option>
+    </select>
+
+    <select id="material-filter" onchange="filterByMaterial()">
+        <option value="all">All materials</option>
+        <option value="wool">Wool</option>
+        <option value="cotton">Cotton</option>
+        <option value="linen">Linen</option>
+        <option value="silk">Silk</option>
+    </select>
+
+    <button onclick="resetFilters()" id="resetFilterBtn">Reset filters</button>
+    <p id="kasvi-maara"></p>
     </section>
 
-    <!-- GALLERY -->
+    <!-- GALLERia -->
     <section class="gallery-section">
         <div class="gallery-grid" id="gallery-grid">
             <!-- Kasvikortit lisätään JavaScriptillä -->

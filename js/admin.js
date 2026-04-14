@@ -34,36 +34,75 @@ function loadPlants() {
 
 // Tämä funktio lisää uuden kasvin kun admin painaa "Add Plant" nappia
 function addPlant() {
-    // FormData on erityinen objekti jolla voi lähettää sekä tekstiä että kuvatiedostoja
     const formData = new FormData();
-    
-    // Lisätään jokainen lomakkeen kenttä FormDataan
+
+    // VANHAT (pidetään)
     formData.append('name', document.getElementById('name').value);
+    formData.append('latin', document.getElementById('latin').value);
     formData.append('color', document.getElementById('color').value);
     formData.append('material', document.getElementById('material').value);
     formData.append('description', document.getElementById('description').value);
-    formData.append('image', document.getElementById('image').files[0]); // files[0] = ensimmäinen valittu tiedosto
+    formData.append('extra', document.getElementById('extra').value);
 
-    // Lähetetään data palvelimelle POST-pyyntönä
+    formData.append('image', document.getElementById('image').files[0]);
+
+    //  UUDET (modalia varten)
+    formData.append('heroColor', document.getElementById('heroColor')?.value || '');
+
+    formData.append('s1title', document.getElementById('s1title')?.value || '');
+    formData.append('s1text', document.getElementById('s1text')?.value || '');
+
+    formData.append('s2title', document.getElementById('s2title')?.value || '');
+    formData.append('s2text', document.getElementById('s2text')?.value || '');
+
+    formData.append('s3title', document.getElementById('s3title')?.value || '');
+    formData.append('s3text', document.getElementById('s3text')?.value || '');
+
+    // top images
+    const plantImg = document.getElementById('plantImage')?.files[0];
+    const useImg = document.getElementById('useImage')?.files[0];
+    const materialImg = document.getElementById('materialImage')?.files[0];
+
+    if (plantImg) formData.append('plantImage', plantImg);
+    if (useImg) formData.append('useImage', useImg);
+    if (materialImg) formData.append('materialImage', materialImg);
+
+    // bottom images
+    const img1 = document.getElementById('img1')?.files[0];
+    const img2 = document.getElementById('img2')?.files[0];
+    const img3 = document.getElementById('img3')?.files[0];
+    const img4 = document.getElementById('img4')?.files[0];
+
+    if (img1) formData.append('img1', img1);
+    if (img2) formData.append('img2', img2);
+    if (img3) formData.append('img3', img3);
+    if (img4) formData.append('img4', img4);
+
+    formData.append('img1title', document.getElementById('img1title')?.value || '');
+    formData.append('img2title', document.getElementById('img2title')?.value || '');
+    formData.append('img3title', document.getElementById('img3title')?.value || '');
+    formData.append('img4title', document.getElementById('img4title')?.value || '');
+
+    // Lähetys
     fetch('/plants', {
         method: 'POST',
-        body: formData // Ei tarvita Content-Type headeria koska FormData asettaa sen automaattisesti
+        body: formData
     })
     .then(res => res.json())
     .then(() => {
-        // Näytetään onnistumisviesti
         const msg = document.getElementById('add-message');
         msg.textContent = 'Plant added successfully!';
         msg.style.color = 'green';
 
-        // Tyhjennetään kaikki lomakkeen kentät lisäämisen jälkeen
+        // reset (vain vanhat varmasti)
         document.getElementById('name').value = '';
+        document.getElementById('latin').value = '';
         document.getElementById('color').value = '';
         document.getElementById('material').value = '';
         document.getElementById('description').value = '';
+        document.getElementById('extra').value = '';
         document.getElementById('image').value = '';
 
-        // Päivitetään lista jotta uusi kasvi näkyy heti
         loadPlants();
     });
 }

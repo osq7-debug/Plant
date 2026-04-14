@@ -1,34 +1,98 @@
 [
   {
     "id": 1,
-    "name": "Birch",
-    "color": "yellow",
-    "material": "wool, linen",
-    "image": "kuvat/koivuLehdet.jpg",
-    "description": "Leaves produce soft golden yellow tones on natural fibers."
+    "name": "Pod Marigold",
+    "latin": "Calendula Officinalis",
+    "color": "Orange",
+    "material": "wool, silk, cotton, linen",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/potbasic.png",
+    "heroColor": "",
+    "sections": [
+      {
+        "title": "Basic overview",
+        "text": "Pot Marigold (Calendula officinalis) is a bright orange-yellow flowering plant often grown in gardens. Beyond its decorative and medicinal uses, it has long been valued in natural textile dyeing. Its petals contain pigments that produce warm, sunny tones on fabrics."
+      },
+      {
+        "title": "Dyeing use",
+        "text": "In natural fabric dyeing, pot marigold is used to create soft orange and yellow shades. The petals are simmered in water to release their pigments, which can then be applied to natural fibers such as cotton, wool, or linen. The resulting color may vary depending on the use of mordants and dyeing conditions."
+      },
+      {
+        "title": "Pigment and color",
+        "text": "The pigments in pot marigold come mainly from carotenoids, which are responsible for the plant’s bright orange and yellow hues. These pigments are released when the petals are heated in water during the dyeing process. The final color can shift depending on temperature, pH, and mordants, producing shades from golden yellow to deep orange. Pot marigold dye is appreciated for its warm, vibrant tones, though it may fade with prolonged light exposure or repeated washing."
+      }
+    ],
+    "topImages": {
+      "plant": "kuvat/Beetroot.jpg",
+      "use": "kuvat/potdyeing.png",
+      "material": "kuvat/pot_mat.png"
+    },
+    "bottomImages": [
+      {
+        "src": "kuvat/potflower.png",
+        "title": "Flowers"
+      },
+      {
+        "src": "kuvat/pot_process.jpg",
+        "title": "Process"
+      },
+      {
+        "src": "kuvat/potsample.jpg",
+        "title": "Dye samples"
+      },
+      {
+        "src": "kuvat/pot_experiment.jpg",
+        "title": "Experiments"
+      }
+    ]
   },
   {
     "id": 2,
-    "name": "Onion Skin",
-    "color": "orange/brown",
-    "material": "wool, cotton",
-    "image": "kuvat/Sipulit.jpg",
-    "description": "Outer skins yield rich orange and brown shades."
-  },
-  {
-    "id": 3,
-    "name": "Blueberry",
-    "color": "blue-purple",
-    "material": "wool, silk",
-    "image": "kuvat/mustikka.jpg",
-    "description": "Berries create soft blue-purple hues on protein fibers."
-  },
-  {
-    "id": 4,
-    "name": "Beetroot",
-    "color": "pink/red",
-    "material": "wool",
-    "image": "kuvat/Punajuuri.jpg",
-    "description": "Root produces vibrant pink and red tones."
+    "name": "Stinging Nettle",
+    "latin": "Urtica Dioica",
+    "color": "Green",
+    "material": "wool, cotton, linen",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/stinging.png",
+    "heroColor": "",
+    "sections": [
+      {
+        "title": "Plant",
+        "text": "Stinging Nettle (Urtica Dioica) is a common wild plant known for its fine hairs that can irritate the skin. Beyond its medicinal and culinary uses, it has also been used in traditional textile practices. The plant contains natural pigments that can be extracted to dye fabrics in soft green and yellow tones."
+      },
+      {
+        "title": "Use",
+        "text": "In natural fabric dyeing, stinging nettle is valued for its ability to produce subtle, earthy colors. The leaves and stems are typically boiled to release the dye, which can then be applied to natural fibers like cotton, wool, or linen. The final shade depends on factors such as water quality, mordants, and dyeing time."
+      },
+      {
+        "title": "Pigment",
+        "text": "The pigment in stinging nettle comes mainly from natural compounds such as chlorophyll, which gives the plant its green color. The resulting color can vary depending on temperature, pH, and the use of mordants, often producing shades from light green to yellow-green. Nettle dye is valued for its soft, natural tones, although the color may be less stable and can fade with exposure to light and repeated washing."
+      }
+    ],
+    "topImages": {
+      "plant": "kuvat/stinging.png",
+      "use": "kuvat/sting_use.png",
+      "material": "kuvat/sting_pigment.png"
+    },
+    "bottomImages": [
+      {
+        "src": "kuvat/useofsting.jpg",
+        "title": "use of pigment in Czech folklor"
+      },
+      {
+        "src": "kuvat/stingdyesample.png",
+        "title": "dye samples"
+      },
+      {
+        "src": "kuvat/stingdress.png",
+        "title": "dress dyed by this pigment"
+      },
+      {
+        "src": "kuvat/stingdress2.jpg",
+        "title": "dress dyed by this pigment"
+      }
+    ]
   }
 ]
