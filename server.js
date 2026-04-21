@@ -98,8 +98,8 @@ app.post('/plants', suojattu, upload.any(), (req, res) => {
         latin: req.body.latin,
         color: req.body.color,
         material: req.body.material,
-        description: req.body.description,
-        extra: req.body.extra || '',
+        //description: req.body.description,
+       // extra: req.body.extra || '',
 
         image: getFile('image'),
 

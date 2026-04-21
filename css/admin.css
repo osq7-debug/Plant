@@ -150,3 +150,23 @@ body {
 #extra{
     resize: none;
 }
+
+input[type="color"] {
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* removes the weird inner border in Chrome */
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+/* actual visible color square */
+input[type="color"]::-webkit-color-swatch {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}

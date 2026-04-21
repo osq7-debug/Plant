@@ -1,6 +1,12 @@
 // Kun sivu latautuu, haetaan heti kasvit listaan
 loadPlants();
 
+let searchValue = "";
+
+document.getElementById("plantSearch").addEventListener("input", (e) => {
+    searchValue = e.target.value.toLowerCase();
+    loadPlants();
+});
 // Tämä funktio hakee kaikki kasvit palvelimelta ja näyttää ne sivulla
 function loadPlants() {
     // Lähetetään pyyntö palvelimelle osoitteeseen /plants
@@ -15,6 +21,7 @@ function loadPlants() {
 
             // Käydään jokainen kasvi läpi yksi kerrallaan
             plants.forEach(plant => {
+                if (!plant.name.toLowerCase().includes(searchValue)) return;
                 // Luodaan uusi div jokaiselle kasville
                 const item = document.createElement('div');
                 item.classList.add('plant-item');
@@ -23,7 +30,7 @@ function loadPlants() {
                 // plant.id menee napin onclick funktioon jotta tiedetään mikä kasvi poistetaan
                 item.innerHTML = `
                     <span>${plant.name}</span>
-                    <button onclick="deletePlant(${plant.id})">Delete</button>
+                    <button onclick="deletePlant(${plant.id}, '${plant.name}')">Delete</button>
                 `;
 
                 // Lisätään kortti listaan
@@ -41,8 +48,8 @@ function addPlant() {
     formData.append('latin', document.getElementById('latin').value);
     formData.append('color', document.getElementById('color').value);
     formData.append('material', document.getElementById('material').value);
-    formData.append('description', document.getElementById('description').value);
-    formData.append('extra', document.getElementById('extra').value);
+    //formData.append('description', document.getElementById('description').value);
+    //formData.append('extra', document.getElementById('extra').value);
 
     formData.append('image', document.getElementById('image').files[0]);
 
@@ -99,8 +106,8 @@ function addPlant() {
         document.getElementById('latin').value = '';
         document.getElementById('color').value = '';
         document.getElementById('material').value = '';
-        document.getElementById('description').value = '';
-        document.getElementById('extra').value = '';
+        //document.getElementById('description').value = '';
+        //document.getElementById('extra').value = '';
         document.getElementById('image').value = '';
 
         loadPlants();
@@ -109,8 +116,12 @@ function addPlant() {
 
 // Tämä funktio poistaa kasvin sen id:n perusteella
 // id tulee parametrina kun nappia painetaan, esim. deletePlant(3) poistaa kasvin jonka id on 3
-function deletePlant(id) {
+function deletePlant(id, name) {
     // Lähetetään DELETE-pyyntö palvelimelle, id laitetaan URL:iin
+    const vahvistaPoisto = confirm(`Are you sure you want to delete ${name}? This cant be undone.`);
+    
+        if(!vahvistaPoisto) return;
+
     fetch('/plants/' + id, { method: 'DELETE' })
     .then(res => res.json())
     .then(() => {
@@ -123,3 +134,4 @@ function deletePlant(id) {
         loadPlants();
     });
 }
+

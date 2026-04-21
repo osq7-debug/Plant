@@ -24,8 +24,10 @@
                 <input type="text" id="latin" placeholder="Latin name (e.g. Betula pendula)">
                 <input type="text" id="color" placeholder="Plant Color">
                 <input type="text" id="material" placeholder="What Material Used For?">
-                <input type="text" id="description" placeholder="Short Plants Description">
-                <textarea id="extra" placeholder="Extra details (optional)" rows="4"></textarea>
+                <label for="heroColor">Header color:</label>
+                <input type="color" id="heroColor">
+                <!--<input type="text" id="description" placeholder="Short Plants Description">
+                <textarea id="extra" placeholder="Extra details (optional)" rows="4"></textarea>-->
 
                 <p>Main Image (gallery):</p>
                 <input type="file" id="image" accept="image/*">
@@ -86,6 +88,10 @@
         <!-- KASVILISTA -->
         <section class="list-section">
             <h2>Plants on the list</h2>
+            <input 
+        type="text" 
+        id="plantSearch" 
+        placeholder="Search plants..." >   
             <div id="plant-list"></div>
             <p id="delete-message"></p>
         </section>

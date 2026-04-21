@@ -94,5 +94,337 @@
         "title": "dress dyed by this pigment"
       }
     ]
+  },
+  {
+    "id": 3,
+    "name": "Golden Rod",
+    "latin": "Solidago Virgaurea",
+    "color": "Yellow",
+    "material": "wool, cotton, linen",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/goldbasic.png",
+    "heroColor": "#f5f0a0",
+    "sections": [
+      {
+        "title": "Basic overview",
+        "text": "Golden Rod (Solidago spp.) is a bright yellow-flowering plant commonly found in meadows and along roadsides. Besides its ornamental and medicinal uses, it has a long history in natural textile dyeing. The plant contains pigments that can impart warm yellow hues to fabrics."
+      },
+      {
+        "title": "Dyeing use",
+        "text": "In natural fabric dyeing, Golden Rod is prized for producing rich, sunny yellow shades. The flowers and sometimes leaves are simmered in water to extract the pigment, which is then applied to natural fibers like wool, cotton, or linen. The final tone can be adjusted using different mordants and dyeing techniques."
+      },
+      {
+        "title": "Pigment and color",
+        "text": "The yellow color in golden rod comes from flavonoid compounds, which are water-soluble pigments. These pigments are released when the plant material is heated in water. The resulting shades can range from soft gold to bright yellow, depending on temperature, pH, and mordants used. Golden rod dye is admired for its warm, vibrant color, though it may fade gradually with light exposure and repeated washing."
+      }
+    ],
+    "topImages": {
+      "plant": "kuvat/goldbasic.png",
+      "use": "kuvat/golddying.jpg",
+      "material": "kuvat/goldpigmen.png"
+    },
+    "bottomImages": [
+      {
+        "src": "kuvat/goldala1.jpg",
+        "title": "Tie and dye experiment"
+      },
+      {
+        "src": "kuvat/goldala2.jpg",
+        "title": "Tie and dye experiment"
+      },
+      {
+        "src": "kuvat/goldala3.png",
+        "title": "Dye samples"
+      },
+      {
+        "src": "kuvat/goldala4.jpg",
+        "title": "Dress dyed by this pigment"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Beetroot",
+    "latin": "Beta Vulgaris",
+    "color": "Pink/Red",
+    "material": "wool, cotton, linen",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/beet1.png",
+    "heroColor": "#f4a7b9",
+    "sections": [
+      {
+        "title": "Plant",
+        "text": "Beetroot (Beta vulgaris) is a root vegetable known for its deep red color and sweet, earthy taste. It is rich in vitamins, minerals, and antioxidants, and is often used in salads, juices, and soups. Beetroot has also been used in traditional medicine and is valued for supporting overall health. Its intense color makes it useful not only in food but also as a natural coloring agent."
+      },
+      {
+        "title": "Use",
+        "text": "Beetroot can be used as a natural dye, producing shades of pink, red, and purple. To prepare the dye, the root is chopped and simmered in water to release its color. The liquid is then strained and used as a dye bath. Fabrics are usually treated with a mordant, such as alum or vinegar, to help the color bind, although beetroot dye tends to fade more quickly than other natural dyes."
+      },
+      {
+        "title": "Pigment",
+        "text": "The pigment in beetroot comes from natural compounds called betalains, mainly betanin, which give the root its strong red color. These pigments are released when the beetroot is crushed or heated in water. The color can vary depending on temperature and pH, often shifting between red and pink tones. Beetroot pigment is appreciated for its bright, vibrant appearance, although it is less stable and more sensitive to light and washing."
+      }
+    ],
+    "topImages": {
+      "plant": "kuvat/beet1.png",
+      "use": "kuvat/beet2.jpg",
+      "material": "kuvat/beet3.png"
+    },
+    "bottomImages": [
+      {
+        "src": "kuvat/beet4.png",
+        "title": "Plant"
+      },
+      {
+        "src": "kuvat/beet5.png",
+        "title": "Dye samples"
+      },
+      {
+        "src": "kuvat/beet6.jpg",
+        "title": "Beetroot"
+      },
+      {
+        "src": "kuvat/beet7.png",
+        "title": "Dress dyed by this pigment"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Onion",
+    "latin": "Allium Cepa",
+    "color": "Orange/Brown",
+    "material": "wool, cotton, linen",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/onion1.png",
+    "heroColor": "#c8a87a",
+    "sections": [
+      {
+        "title": "Plant",
+        "text": "Onion (Allium cepa) is a common vegetable used worldwide in cooking. It grows underground as a bulb and is known for its strong smell and flavor. Onions are rich in vitamins and antioxidants and have been used in traditional medicine for their antibacterial and anti-inflammatory properties. They are easy to grow and are an important part of many cuisines."
+      },
+      {
+        "title": "Use",
+        "text": "Onion skins, especially the dry outer layers, are widely used as a natural dye. They produce warm shades of yellow, orange, and brown. To make a dye, the skins are simmered in water to release their color, and the liquid is then used as a dye bath. The fabric is often treated with a mordant, such as alum, to help the color last longer. The pigment in onion skins comes mainly from natural compounds called flavonoids, especially quercetin. These pigments are released when the skins are boiled in water."
+      },
+      {
+        "title": "Pigment",
+        "text": "The resulting dye can vary in color depending on the type of onion and the mordant used. Onion pigment is valued for its earthy tones, good color fastness, and ability to create rich, natural shades on fabric."
+      }
+    ],
+    "topImages": {
+      "plant": "kuvat/onion1.png",
+      "use": "kuvat/onion2.png",
+      "material": "kuvat/onion3.png"
+    },
+    "bottomImages": [
+      {
+        "src": "kuvat/onion4.png",
+        "title": "Dye samples"
+      },
+      {
+        "src": "kuvat/onion5.jpg",
+        "title": "Use of pigment in Czech folklor"
+      },
+      {
+        "src": "kuvat/onion6.jpg",
+        "title": "Dress dyed by this pigment"
+      },
+      {
+        "src": "kuvat/onion7.jpg",
+        "title": "Dress dyed by this pigment"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Elderberry",
+    "latin": "Sambucus Nigra",
+    "color": "Purple",
+    "material": "wool, cotton, linen",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/elder1.png",
+    "heroColor": "#6b5b8c",
+    "sections": [
+      {
+        "title": "Plant",
+        "text": "Elderberry (Sambucus nigra) is a small tree or shrub known for its dark purple berries and white flowers. It has been used for centuries in traditional medicine, especially to support the immune system and help with colds and flu. The berries are commonly made into syrups, teas, and jams, but they must be cooked before eating, as raw berries can be toxic. Elderberry plants are also popular in nature for attracting birds and pollinators."
+      },
+      {
+        "title": "Use",
+        "text": "Berries, often called elderberries, are small dark purple berries that grow on the elder tree after the flowers bloom. They can be used to create natural dyes for fabric, producing deep purples, blues, or burgundy tones depending on the mordant and fabric type. Pigment from elderberries comes from the natural anthocyanins in the fruit, which give the berries their deep purple to almost black color. This pigment can be extracted by gently crushing or simmering the berries in water to release their juice."
+      },
+      {
+        "title": "Pigment",
+        "text": "The resulting liquid can be used as a natural dye or pigment for painting, fabric coloring, or ink-making. The color can vary depending on pH: acidic conditions produce reddish tones, while alkaline conditions shift the pigment toward blue or purple. Elderberry pigment is valued for its rich, organic hues and subtle, natural variations."
+      }
+    ],
+    "topImages": {
+      "plant": "kuvat/elder1.png",
+      "use": "kuvat/elder2.png",
+      "material": "kuvat/elder3.png"
+    },
+    "bottomImages": [
+      {
+        "src": "kuvat/elder4.jpg",
+        "title": "Process of extraction"
+      },
+      {
+        "src": "kuvat/elder5.png",
+        "title": "Experiment with different additives"
+      },
+      {
+        "src": "kuvat/elder6.png",
+        "title": "Pigment extraction"
+      },
+      {
+        "src": "kuvat/elder7.png",
+        "title": "Final paint"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Virginia Creeper",
+    "latin": "Parthenocissus Quinquefolia",
+    "color": "Blue/Purple",
+    "material": "wool, cotton, linen",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/virginia1.png",
+    "heroColor": "#00000",
+    "sections": [
+      {
+        "title": "Basic overview",
+        "text": "Virginia Creeper (Parthenocissus quinquefolia) is a climbing vine native to North America, known for its lush green leaves that turn bright red in autumn. Beyond its ornamental appeal, it has been used in traditional textile dyeing. The leaves and berries contain natural pigments that can color fabrics in red, purple, or blue tones."
+      },
+      {
+        "title": "Dyeing use",
+        "text": "In natural fabric dyeing, Virginia Creeper is valued for producing rich autumnal colors. The berries are often simmered to extract red or purple pigments, while leaves can yield greenish to brownish tones. The extracted dye is applied to natural fibers like cotton, wool, or linen, and the final shade depends on mordants, pH, and dyeing time."
+      },
+      {
+        "title": "Pigment and color",
+        "text": "The pigments in Virginia Creeper come mainly from anthocyanins in the berries and chlorophyll in the leaves. When heated in water, these compounds release colors ranging from red and purple to greenish-brown, depending on pH and mordant used. Virginia Creeper dye is prized for its warm, natural hues, though like many plant dyes, the colors may fade over time with light exposure or repeated washing."
+      }
+    ],
+    "topImages": {
+      "plant": "kuvat/virginia1.png",
+      "use": "kuvat/virginia2.png",
+      "material": "kuvat/virginia3.png"
+    },
+    "bottomImages": [
+      {
+        "src": "kuvat/virginia4.png",
+        "title": "Dye samples"
+      },
+      {
+        "src": "kuvat/virginia5.png",
+        "title": "Dress dyed by this pigment"
+      },
+      {
+        "src": "kuvat/virginia6.jpg",
+        "title": "Dress dyed by this pigment"
+      },
+      {
+        "src": "kuvat/virginia7.png",
+        "title": "Dress dyed by this pigment"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "test",
+    "latin": "test",
+    "color": "test",
+    "material": "test",
+    "image": "",
+    "heroColor": "",
+    "sections": [
+      {
+        "title": "",
+        "text": ""
+      },
+      {
+        "title": "",
+        "text": ""
+      },
+      {
+        "title": "",
+        "text": ""
+      }
+    ],
+    "topImages": {
+      "plant": "",
+      "use": "",
+      "material": ""
+    },
+    "bottomImages": [
+      {
+        "src": "",
+        "title": ""
+      },
+      {
+        "src": "",
+        "title": ""
+      },
+      {
+        "src": "",
+        "title": ""
+      },
+      {
+        "src": "",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "color testiingngg",
+    "latin": "",
+    "color": "",
+    "material": "",
+    "image": "",
+    "heroColor": "#ff003c",
+    "sections": [
+      {
+        "title": "",
+        "text": ""
+      },
+      {
+        "title": "",
+        "text": ""
+      },
+      {
+        "title": "",
+        "text": ""
+      }
+    ],
+    "topImages": {
+      "plant": "",
+      "use": "",
+      "material": ""
+    },
+    "bottomImages": [
+      {
+        "src": "",
+        "title": ""
+      },
+      {
+        "src": "",
+        "title": ""
+      },
+      {
+        "src": "",
+        "title": ""
+      },
+      {
+        "src": "",
+        "title": ""
+      }
+    ]
   }
 ]
