@@ -6,16 +6,19 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #a0a0a0;
+    background-color: #f5f7faef;
     color: #111;
+    line-height: 1.5;
 }
 
+/* CONTAINER */
 .admin-container {
-    max-width: 700px;
+    max-width: 720px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 50px 20px;
 }
 
+/* HEADER */
 .admin-header {
     display: flex;
     justify-content: space-between;
@@ -24,85 +27,84 @@ body {
 }
 
 .admin-header h1 {
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
 }
 
 .admin-header a {
-    color: #888;
+    color: #666;
     text-decoration: none;
     font-size: 14px;
+    transition: 0.2s;
 }
 
 .admin-header a:hover {
-    color: #111;
+    color: #000;
 }
 
-
-.add-section {
-    background: rgb(255, 255, 255);
-    border: 1px solid #ddd;
-    border-radius: 10px;
+/* CARDS (yhtenäinen tyyli) */
+.add-section,
+.list-section {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
     padding: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 15px 40px rgba(0,0,0,7.5);
 }
 
-.add-section h2 {
+/* TITLES */
+.add-section h2,
+.list-section h2 {
     font-size: 18px;
     margin-bottom: 16px;
+    font-weight: 700;
 }
 
+/* FORM */
 .form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
 }
 
 .form input {
-    padding: 10px 12px;
+    padding: 12px 14px;
     border: 1px solid #ddd;
     border-radius: 10px;
     font-size: 14px;
+    transition: 0.2s;
 }
 
+.form input:focus {
+    border-color: #111;
+    outline: none;
+}
+
+/* BUTTON */
 .form button {
-    padding: 12px;
+    padding: 13px;
     background: #111;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 15px;
     font-weight: 700;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .form button:hover {
     background: #333;
 }
 
-#add-message {
-    margin-top: 10px;
-    font-size: 14px;
-}
-
-
-.list-section {
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    padding: 24px;
-}
-
-.list-section h2 {
-    font-size: 18px;
-    margin-bottom: 16px;
-}
-
+/* LIST ITEMS */
 .plant-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 0;
+    padding: 14px 0;
     border-bottom: 1px solid #eee;
 }
 
@@ -114,43 +116,56 @@ body {
     font-size: 15px;
 }
 
+/* DELETE BUTTON */
 .plant-item button {
     padding: 6px 14px;
-    background: white;
-    color: red;
-    border: 1px solid red;
-    border-radius: 6px;
+    background: transparent;
+    color: #e11d48;
+    border: 1px solid #e11d48;
+    border-radius: 8px;
     font-size: 13px;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .plant-item button:hover {
-    background: red;
+    background: #e11d48;
     color: white;
 }
 
+/* MESSAGES */
+#add-message,
 #delete-message {
     margin-top: 10px;
     font-size: 14px;
+    color: #555;
 }
 
-#LogOut{
-    color: black;
-    font-weight: 800;
-    padding: 12px;
+/* LOGOUT */
+#LogOut {
+    padding: 12px 18px;
     background: #111;
     color: white;
     border: none;
-    border-radius: 8px;
-    font-size: 15px;
+    border-radius: 10px;
+    font-size: 14px;
     font-weight: 700;
     cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 0 15px 40px rgba(0,0,0,7.5);
 }
 
-#extra{
+#LogOut:hover {
+    background: #333;
+    color: red;
+}
+
+/* TEXTAREA */
+#extra {
     resize: none;
 }
 
+/* COLOR INPUT */
 input[type="color"] {
     width: 45px;
     height: 45px;
@@ -160,12 +175,10 @@ input[type="color"] {
     cursor: pointer;
 }
 
-/* removes the weird inner border in Chrome */
 input[type="color"]::-webkit-color-swatch-wrapper {
     padding: 0;
 }
 
-/* actual visible color square */
 input[type="color"]::-webkit-color-swatch {
     border: 2px solid #ddd;
     border-radius: 8px;

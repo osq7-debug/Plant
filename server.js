@@ -100,7 +100,7 @@ app.post('/plants', suojattu, upload.any(), (req, res) => {
         material: req.body.material,
         //description: req.body.description,
        // extra: req.body.extra || '',
-
+        parts: req.body.parts,
         image: getFile('image'),
 
         heroColor: req.body.heroColor,

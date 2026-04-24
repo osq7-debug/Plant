@@ -48,6 +48,7 @@ function addPlant() {
     formData.append('latin', document.getElementById('latin').value);
     formData.append('color', document.getElementById('color').value);
     formData.append('material', document.getElementById('material').value);
+    formData.append('parts', document.getElementById('parts').value);
     //formData.append('description', document.getElementById('description').value);
     //formData.append('extra', document.getElementById('extra').value);
 
@@ -106,6 +107,7 @@ function addPlant() {
         document.getElementById('latin').value = '';
         document.getElementById('color').value = '';
         document.getElementById('material').value = '';
+        document.getElementById('parts').value = '';
         //document.getElementById('description').value = '';
         //document.getElementById('extra').value = '';
         document.getElementById('image').value = '';

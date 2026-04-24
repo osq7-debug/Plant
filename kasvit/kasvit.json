@@ -4,11 +4,12 @@
     "name": "Pod Marigold",
     "latin": "Calendula Officinalis",
     "color": "Orange",
-    "material": "wool, silk, cotton, linen",
+    "material": "wool, silk, cotton, linen????????????????",
+    "parts": "Blooms",
     "description": "",
     "extra": "",
     "image": "kuvat/potbasic.png",
-    "heroColor": "",
+    "heroColor": "#FFD580",
     "sections": [
       {
         "title": "Basic overview",
@@ -52,7 +53,8 @@
     "name": "Stinging Nettle",
     "latin": "Urtica Dioica",
     "color": "Green",
-    "material": "wool, cotton, linen",
+    "material": "wool, cotton, linen????????????????",
+    "parts": "Leaves",
     "description": "",
     "extra": "",
     "image": "kuvat/stinging.png",
@@ -101,6 +103,7 @@
     "latin": "Solidago Virgaurea",
     "color": "Yellow",
     "material": "wool, cotton, linen",
+    "parts": "Whole plant (leaves, stems, bloom)",
     "description": "",
     "extra": "",
     "image": "kuvat/goldbasic.png",
@@ -148,7 +151,8 @@
     "name": "Beetroot",
     "latin": "Beta Vulgaris",
     "color": "Pink/Red",
-    "material": "wool, cotton, linen",
+    "material": "wool, cotton, linen????????????????",
+    "parts": "Root",
     "description": "",
     "extra": "",
     "image": "kuvat/beet1.png",
@@ -196,7 +200,8 @@
     "name": "Onion",
     "latin": "Allium Cepa",
     "color": "Orange/Brown",
-    "material": "wool, cotton, linen",
+    "material": "wool, cotton, linen????????????????",
+    "parts": "Peels",
     "description": "",
     "extra": "",
     "image": "kuvat/onion1.png",
@@ -244,7 +249,8 @@
     "name": "Elderberry",
     "latin": "Sambucus Nigra",
     "color": "Purple",
-    "material": "wool, cotton, linen",
+    "material": "wool, cotton, linen????????????????",
+    "parts": "Berries, leaves, bark",
     "description": "",
     "extra": "",
     "image": "kuvat/elder1.png",
@@ -292,7 +298,8 @@
     "name": "Virginia Creeper",
     "latin": "Parthenocissus Quinquefolia",
     "color": "Blue/Purple",
-    "material": "wool, cotton, linen",
+    "material": "wool, cotton, linen????????????????",
+    "parts": "Berries, leaves",
     "description": "",
     "extra": "",
     "image": "kuvat/virginia1.png",
@@ -337,94 +344,342 @@
   },
   {
     "id": 8,
-    "name": "test",
-    "latin": "test",
-    "color": "test",
-    "material": "test",
-    "image": "",
-    "heroColor": "",
+    "name": "Henna",
+    "latin": "Lawsonia Inermis",
+    "color": "Orange",
+    "material": "hair",
+    "parts": "Leaves, dried and powdered",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/henna.png",
+    "heroColor": "#e8a87c",
     "sections": [
-      {
-        "title": "",
-        "text": ""
-      },
-      {
-        "title": "",
-        "text": ""
-      },
-      {
-        "title": "",
-        "text": ""
-      }
+      { "title": "Basic overview", "text": "Plant type: Perennial bush or small tree. Leaves smooth, size 1.5-5 cm. Habitat: Dry and warm areas, e.g. North Africa and South Asia." },
+      { "title": "Dyeing use", "text": "Leaves, dried and powdered are used for dyeing." },
+      { "title": "Pigment and color", "text": "Bright orange to warm brown. Final colour depends on the person's base colour." }
     ],
-    "topImages": {
-      "plant": "",
-      "use": "",
-      "material": ""
+    "topImages": { 
+      "plant": "kuvat/henna.png", 
+      "use": "kuvat/henna.png", 
+      "material": "kuvat/henna.png" 
     },
     "bottomImages": [
-      {
-        "src": "",
-        "title": ""
-      },
-      {
-        "src": "",
-        "title": ""
-      },
-      {
-        "src": "",
-        "title": ""
-      },
-      {
-        "src": "",
-        "title": ""
-      }
+      { "src": "kuvat/henna.png", "title": "1" },
+      { "src": "kuvat/henna.png", "title": "2" },
+      { "src": "kuvat/henna.png", "title": "3" },
+      { "src": "kuvat/henna.png", "title": "4" }
     ]
   },
   {
     "id": 9,
-    "name": "color testiingngg",
-    "latin": "",
-    "color": "",
-    "material": "",
-    "image": "",
-    "heroColor": "#ff003c",
+    "name": "Indigo",
+    "latin": "Indigofera Tinctoria",
+    "color": "Blue",
+    "material": "hair",
+    "parts": "Leaves, dissolution with water, drying, powdering",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/indigo.png",
+    "heroColor": "#4a6fa5",
     "sections": [
-      {
-        "title": "",
-        "text": ""
-      },
-      {
-        "title": "",
-        "text": ""
-      },
-      {
-        "title": "",
-        "text": ""
-      }
+      { "title": "Basic overview", "text": "Plant type: Biennial or perennial depending on climate. Leaves oval, small, smooth. Flowers small, purple, legumes type. Habitat: warm, sunny place, in soil that drains water well. Africa, Asia." },
+      { "title": "Dyeing use", "text": "Leaves dissolved with water, dried and powdered are used for dyeing." },
+      { "title": "Pigment and color", "text": "Dark brown and black tints. May cause headache for sensitive individuals." }
     ],
-    "topImages": {
-      "plant": "",
-      "use": "",
-      "material": ""
-    },
+    "topImages": { "plant": "kuvat/indigo.png",
+    "use": "kuvat/indigo.png",
+    "material": "kuvat/indigo.png" },
     "bottomImages": [
-      {
-        "src": "",
-        "title": ""
-      },
-      {
-        "src": "",
-        "title": ""
-      },
-      {
-        "src": "",
-        "title": ""
-      },
-      {
-        "src": "",
-        "title": ""
-      }
+      { "src": "kuvat/indigo.png", "title": "" },
+      { "src": "kuvat/indigo.png", "title": "" },
+      { "src": "kuvat/indigo.png", "title": "" },
+      { "src": "kuvat/indigo.png", "title": "" }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Cassia",
+    "latin": "Senna Italica",
+    "color": "Yellow",
+    "material": "hair",
+    "parts": "Leaves, dried and powdered",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/cassia.png",
+    "heroColor": "#f0d060",
+    "sections": [
+      { "title": "Basic overview", "text": "Plant type: pulse, bush-type, perennial. Leaves: one leaf contains multiple small leaves. Flowers: bright yellow. Habitat: dry and semi-dry places, Africa, Asia." },
+      { "title": "Dyeing use", "text": "Leaves, dried and powdered are used for dyeing." },
+      { "title": "Pigment and color", "text": "Golden/honey shades, won't affect darker shades. Natural conditioner, adding shine and strength." }
+    ],
+    "topImages": { "plant": "kuvat/cassia.png", "use": "kuvat/cassia.png", "material": "kuvat/cassia.png" },
+    "bottomImages": [
+      { "src": "kuvat/cassia.png", "title": "" },
+      { "src": "kuvat/cassia.png", "title": "" },
+      { "src": "kuvat/cassia.png", "title": "" },
+      { "src": "kuvat/cassia.png", "title": "" }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Katam",
+    "latin": "Buxus Dioica",
+    "color": "Purple",
+    "material": "hair",
+    "parts": "Leaves, dried and powdered",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/katam.png",
+    "heroColor": "#7b5ea7",
+    "sections": [
+      { "title": "Basic overview", "text": "Plant type: Perennial bush. Leaves: small, leathery, smooth. Habitat: dry, warm, tropical or semi-tropical climate. Asia, Africa." },
+      { "title": "Dyeing use", "text": "Leaves, dried and powdered are used for dyeing." },
+      { "title": "Pigment and color", "text": "Cool and brown tones (e.g. mahogany). Better option for those sensitive to indigo." }
+    ],
+    "topImages": { "plant": "kuvat/katam.png", "use": "kuvat/katam.png", "material": "kuvat/katam.png" },
+    "bottomImages": [
+      { "src": "kuvat/katam.png", "title": "" },
+      { "src": "kuvat/katam.png", "title": "" },
+      { "src": "kuvat/katam.png", "title": "" },
+      { "src": "kuvat/katam.png", "title": "" }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Manjistha",
+    "latin": "Rubia Cordifolia",
+    "color": "Red",
+    "material": "hair",
+    "parts": "Roots (red-brown)",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/manjistha.png",
+    "heroColor": "#c0504d",
+    "sections": [
+      { "title": "Basic overview", "text": "Plant type: vine plant. Leaves: heartshaped, rough, green. Flower: small, inflorescence forms branched clusters. Habitat: tropical and sub-tropical, moist, shady environment, slopes and forests. India, Africa, Southeast Asia." },
+      { "title": "Dyeing use", "text": "Roots (red-brown) are used for dyeing." },
+      { "title": "Pigment and color", "text": "Strawberry blonde tone. Often used with henna to deepen the tone." }
+    ],
+    "topImages": { "plant": "kuvat/manjistha.png", "use": "kuvat/manjistha.png", "material": "kuvat/manjistha.png" },
+    "bottomImages": [
+      { "src": "kuvat/manjistha.png", "title": "" },
+      { "src": "kuvat/manjistha.png", "title": "" },
+      { "src": "kuvat/manjistha.png", "title": "" },
+      { "src": "kuvat/manjistha.png", "title": "" }
+    ]
+  }, {
+    "id": 13,
+    "name": "Blueberry",
+    "latin": "Vaccinium Myrtillus",
+    "color": "Purple",
+    "material": "hair",
+    "parts": "Berry, powdered",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/blueberry.png",
+    "heroColor": "#6b5b8c",
+    "sections": [
+      { "title": "Basic overview", "text": "Plant type: perennial bush. Leaves: small, oval. Flower: small, white to pink. Berry: blue-black, small, appr. 1 cm in diameter. Habitat: coniferous forest, cool, moist, shady, acid soil. Europe, Asia, North America." },
+      { "title": "Dyeing use", "text": "Berry, powdered. Colour was extracted using hot water, approximately 70-80 degrees celsius. Soaking time appr. 30 minutes. Rinsed with lukewarm water. Shampooing does not fade the colour significantly. Gives temporary colour. Best result in blonde, gray or treated hair. Used for toning." },
+      { "title": "Pigment and color", "text": "Violet/purple, blue, burgundy." }
+    ],
+    "topImages": { "plant": "kuvat/blueberry.png", "use": "kuvat/blueberry.png", "material": "kuvat/blueberry.png" },
+    "bottomImages": [
+      { "src": "kuvat/blueberry.png", "title": "" },
+      { "src": "kuvat/blueberry.png", "title": "" },
+      { "src": "kuvat/blueberry.png", "title": "" },
+      { "src": "kuvat/blueberry.png", "title": "" }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Lingonberry",
+    "latin": "Vaccinium Vitis-Idaea",
+    "color": "Pink",
+    "material": "hair",
+    "parts": "Berry, can be used dried or fresh",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/lingon.png",
+    "heroColor": "#e8a0b0",
+    "sections": [
+      { "title": "Basic overview", "text": "Plant type: evergreen dwarf shrub. Leaves: small, leathery, evergreen. Flower: pail pink, bell-shaped, flowering in June-July. Berry: bright red, shiny, round berries 6-10 mm. Habitat: cold and cool climate, dry and acid coniferous forest, especially bright and semi-open areas. Northern hemisphere, especially Finland." },
+      { "title": "Dyeing use", "text": "Berry, can be used dried or fresh. Colour was extracted using hot water, approximately 70-80 degrees celsius. Soaking time appr. 30 minutes. Rinsed with lukewarm water. Fresh gives more color." },
+      { "title": "Pigment and color", "text": "Rose gold pink." }
+    ],
+    "topImages": { "plant": "kuvat/lingon.png", "use": "kuvat/lingon.png", "material": "kuvat/lingon.png" },
+    "bottomImages": [
+      { "src": "kuvat/lingon.png", "title": "" },
+      { "src": "kuvat/lingon.png", "title": "" },
+      { "src": "kuvat/lingon.png", "title": "" },
+      { "src": "kuvat/lingon.png", "title": "" }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Chokeberry",
+    "latin": "Aronia Melanocarpa",
+    "color": "Purple",
+    "material": "hair",
+    "parts": "Berry, can be used dried or fresh",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/choke.png",
+    "heroColor": "#7b5ea7",
+    "sections": [
+      { "title": "Basic overview", "text": "Plant type: multi-stemmed, perennial, belongs to rosacea family. Leaves: oval, serrated edges. Flower: white, light pink. Berry: shiny black, pea-size, ripe in August. Habitat: grows in many environments, e.g. wetlands, dry and open areas. Europe, North America." },
+      { "title": "Dyeing use", "text": "Berry, can be used dried or fresh. Colour was extracted using hot water, approximately 70-80 degrees celsius. Soaking time appr. 30 minutes. Rinsed with lukewarm water. Fresh flower gives more color." },
+      { "title": "Pigment and color", "text": "Light blue-violet." }
+    ],
+    "topImages": { "plant": "kuvat/choke.png", "use": "kuvat/choke.png", "material": "kuvat/choke.png" },
+    "bottomImages": [
+      { "src": "kuvat/choke.png", "title": "" },
+      { "src": "kuvat/choke.png", "title": "" },
+      { "src": "kuvat/choke.png", "title": "" },
+      { "src": "kuvat/choke.png", "title": "" }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Viola",
+    "latin": "Violaceae",
+    "color": "Green",
+    "material": "hair",
+    "parts": "Flower petal",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/viola.png",
+    "heroColor": "#a0c878",
+    "sections": [
+      { "title": "Basic overview", "text": "Plant type: belongs to viola family, annual/biennial plant. Leaves: smooth, heart-shaped. Flower: typically three-coloured, 10-25 mm in diameter. Habitat: rocks, dry meadows, fields, roadsides, and wastelands. Europe, North America." },
+      { "title": "Dyeing use", "text": "Flower petal. Colour was extracted using hot water, approximately 70-80 degrees celsius. Soaking time appr. 30 minutes. Rinsed with lukewarm water. Dried and color released with hot water." },
+      { "title": "Pigment and color", "text": "Greenish blue / Mint green." }
+    ],
+    "topImages": { "plant": "kuvat/viola.png", "use": "kuvat/viola.png", "material": "kuvat/viola.png" },
+    "bottomImages": [
+      { "src": "kuvat/viola.png", "title": "" },
+      { "src": "kuvat/viola.png", "title": "" },
+      { "src": "kuvat/viola.png", "title": "" },
+      { "src": "kuvat/viola.png", "title": "" }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Cranberry",
+    "latin": "Vaccinium Microcarpum",
+    "color": "Pink",
+    "material": "hair",
+    "parts": "Berry",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/cranberry.png",
+    "heroColor": "#e05070",
+    "sections": [
+      { "title": "Basic overview", "text": "Plant type: perennial, evergreen dwarf shrub. Leaves: small, leathery, oval. Flower: small, red, light pink. Flowering in June-July. Berry: dark red, 10-15 mm in diameter, can last under the snow until spring. Habitat: especially wet open swamps, thrives in cold, acidic and nutrient-poor conditions. Northern hemisphere." },
+      { "title": "Dyeing use", "text": "Berry. Colour was extracted using hot water. Approximately 70-80 degrees celsius. Soaking time appr. 30 minutes. Rinsed with lukewarm water. Can be used dried or fresh. Fresh berry gives more color." },
+      { "title": "Pigment and color", "text": "Bright pink." }
+    ],
+    "topImages": { "plant": "kuvat/cranberry.png", "use": "kuvat/cranberry.png", "material": "kuvat/cranberry.png" },
+    "bottomImages": [
+      { "src": "kuvat/Cranberry_hair.png", "title": "Hair dyed with this plant" },
+      { "src": "kuvat/cranberry.png", "title": "" },
+      { "src": "kuvat/cranberry.png", "title": "" },
+      { "src": "kuvat/cranberry.png", "title": "" }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Funnel Chantarelle",
+    "latin": "Craterellus Tubaeformis",
+    "color": "Yellow",
+    "material": "hair",
+    "parts": "Whole mushroom",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/funnel.png",
+    "heroColor": "#f0d060",
+    "sections": [
+      { "title": "Basic overview", "text": "Plant type: horn fungus, veiled mushrooms. Structure: cap, stem/stipe. Habitat: fresh spruce forest, coniferous forest. Europe, North America." },
+      { "title": "Dyeing use", "text": "Whole mushroom. Colour was extracted from dried mushroom using hot water, approximately 70-80 degrees celsius. Soaking time appr. 30 minutes. Rinsed with lukewarm water." },
+      { "title": "Pigment and color", "text": "Light yellow." }
+    ],
+    "topImages": { "plant": "kuvat/funnel.png", "use": "kuvat/funnel.png", "material": "kuvat/funnel.png" },
+    "bottomImages": [
+      { "src": "kuvat/Funnelchantarelle_hair.png", "title": "Hair dyed with this plant" },
+      { "src": "kuvat/funnel.png", "title": "" },
+      { "src": "kuvat/funnel.png", "title": "" },
+      { "src": "kuvat/funnel.png", "title": "" }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Raspberry",
+    "latin": "Rubus Idaeus",
+    "color": "Pink",
+    "material": "hair",
+    "parts": "Berry",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/raspberry.png",
+    "heroColor": "#e8a0b0",
+    "sections": [
+      { "title": "Basic overview", "text": "Plant type: perennial, belongs to rosacea family. Leaves: petioles, oval, serrated edge. Flower: white, clustered. Berry: deep pink red, ripe in July-August. Habitat: rocky hills, roadsides, edge of forests." },
+      { "title": "Dyeing use", "text": "Berry. Colour was extracted using hot water, approximately 70-80 degrees celsius. Soaking time appr. 30 minutes. Rinsed with lukewarm water. Shampooing does not fade the colour significantly. Fresh berry gives more color." },
+      { "title": "Pigment and color", "text": "Light pink." }
+    ],
+    "topImages": { "plant": "kuvat/raspberry.png", "use": "kuvat/raspberry.png", "material": "kuvat/raspberry.png" },
+    "bottomImages": [
+      { "src": "kuvat/Raspberry_hair.png", "title": "Hair dyed with this plant" },
+      { "src": "kuvat/raspberry.png", "title": "" },
+      { "src": "kuvat/raspberry.png", "title": "" },
+      { "src": "kuvat/raspberry.png", "title": "" }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Strawberry",
+    "latin": "Fragaria",
+    "color": "Red",
+    "material": "hair",
+    "parts": "Berry",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/strawberry.png",
+    "heroColor": "#e05050",
+    "sections": [
+      { "title": "Basic overview", "text": "Plant type: perennial, rosacea family. Leaves: serrated edge. Flower: white with yellow center. Berry: red with achenes on surface. Habitat: glades, fields, roadsides and logging opening; wild in the whole Europe." },
+      { "title": "Dyeing use", "text": "Berry. Colour was extracted using hot water, approximately 70-80 degrees celsius. Soaking time appr. 30 minutes. Rinsed with lukewarm water. Fresh berry gives more color." },
+      { "title": "Pigment and color", "text": "Reddish pink." }
+    ],
+    "topImages": { "plant": "kuvat/strawberry.png", "use": "kuvat/strawberry.png", "material": "kuvat/strawberry.png" },
+    "bottomImages": [
+      { "src": "kuvat/strawberry_hair.png", "title": "Hair dyed with this plant" },
+      { "src": "kuvat/strawberry.png", "title": "" },
+      { "src": "kuvat/strawberry.png", "title": "" },
+      { "src": "kuvat/strawberry.png", "title": "" }
+    ]
+  },{
+    "id": 21,
+    "name": "Blackcurrant",
+    "latin": "Ribes nigrum",
+    "color": "Purple",
+    "material": "hair",
+    "parts": "Berry",
+    "description": "",
+    "extra": "",
+    "image": "kuvat/blackc.png",
+    "heroColor": "#e05050",
+    "sections": [
+      { "title": "Basic overview", "text": "Plant type: belongs to currant plant family, perennial bush. Leaves: smooth upper side, hairy lower side, strong aroma of leaves is characteristic to the species. Flower: reddish-brownish-green, multiflowered clustered. Berry: black, shiny and juicy. Habitat: Sunny or semi-shady places. Europe, Eurasia." },
+      { "title": "Dyeing use", "text": "Colour was extracted using hot water, approximately 70-80 degrees celsius. Soaking time appr. 30 minutes. Rinsed with lukewarm water. Fresh berry gives more color." },
+      { "title": "Pigment and color", "text": "Violet" }
+    ],
+    "topImages": { "plant": "kuvat/blackc.png", "use": "kuvat/blackc.png", "material": "kuvat/blackc.png" },
+    "bottomImages": [
+      { "src": "kuvat/blackcHair.png", "title": "Hair dyed with this plant" },
+      { "src": "kuvat/blackc.png", "title": "" },
+      { "src": "kuvat/blackc.png", "title": "" },
+      { "src": "kuvat/blackc.png", "title": "" }
     ]
   }
 ]

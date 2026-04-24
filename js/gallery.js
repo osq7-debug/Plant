@@ -41,6 +41,7 @@ function showPlants(plants) {
         <p><em>${plant.latin}</em></p>
         <p>Color: ${plant.color}</p>
         <p>Material: ${plant.material}</p>
+        <p>Parts used: ${plant.parts}</p>
       </div>
     `;
 
